@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working In SPOTMIES<br>🌱 I’m currently learning AI
+🌱 I’m actively expanding my skill set in Artificial Intelligence , with a strong interest in machine learning, deep learning, and real-world AI applications. 
 
 
 ## 🌐 Socials:

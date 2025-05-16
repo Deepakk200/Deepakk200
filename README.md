@@ -1,3 +1,14 @@
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
+
+###
+
+###
+
+<h1 align="center">hey there 👋</h1>
+
+###
 # 💫 About Me:
 🌱 I’m actively expanding my skill set in Artificial Intelligence , with a strong interest in machine learning, deep learning, and real-world AI applications. 
 

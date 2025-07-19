@@ -1,7 +1,8 @@
-name: Metrics
+name: GitHub Metrics
+
 on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
+  schedule: [{ cron: "0 0 * * *" }]  # Runs daily
+  workflow_dispatch:                # Manual trigger
 
 jobs:
   github-metrics:
@@ -9,10 +10,11 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.plugin.isocalendar.fullyear.svg  
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Deepakk200
+          base: ""
+          config_timezone: Asia/Kolkata
 
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
+          plugin_isocalendar_duration: full-year  

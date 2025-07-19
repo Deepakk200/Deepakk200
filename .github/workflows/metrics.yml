@@ -1,8 +1,9 @@
-name: GitHub Metrics
+name: Metrics
 
 on:
-  schedule: [{ cron: "0 0 * * *" }]  # Runs daily
-  workflow_dispatch:                # Manual trigger
+  schedule:
+    - cron: "0 0 * * 0"  # Every Sunday
+  workflow_dispatch:    
 
 jobs:
   github-metrics:
@@ -10,11 +11,23 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg  
           token: ${{ secrets.METRICS_TOKEN }}
           user: Deepakk200
-          base: ""
-          config_timezone: Asia/Kolkata
+          filename: metrics.full.svg
 
+          # Plugins
+          base: header, activity, community, repositories, metadata
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year  
+          plugin_isocalendar_duration: full-year
+          plugin_stars: yes
+          plugin_followup: yes
+          plugin_languages: yes
+          plugin_languages_ignored: html
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_lines: yes
+          plugin_topics: yes
+          plugin_repositories: yes

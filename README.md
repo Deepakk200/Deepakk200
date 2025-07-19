@@ -23,9 +23,9 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=deepakk200&theme=highcontrast&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=deepakk200&theme=highcontrast&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-### 🗓 GitHub Activity Calendar
+### 📊 GitHub Metrics
 
-![Metrics](https://github.com/Deepakk200/Deepakk200/blob/main/metrics.full.svg)
+![Metrics](https://github.com/Deepakk200/Deepakk200/blob/main/metrics.svg)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)

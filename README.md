@@ -25,7 +25,7 @@
 
 ### 🗓 GitHub Activity Calendar
 
-![ISO Calendar](https://github.com/Deepakk200/Deepakk200/blob/main/metrics.plugin.isocalendar.fullyear.svg)
+![Metrics](https://github.com/Deepakk200/Deepakk200/blob/main/metrics.full.svg)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
